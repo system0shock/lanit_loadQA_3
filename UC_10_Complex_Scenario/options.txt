@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Omega\Documents\VuGen\Scripts\tutorial\Scripts\lanit_LoadQA\UC_10_Complex_Scenario
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\logfile.log
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\combined_UC_10_Complex_Scenario.c
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\pre_cci.c

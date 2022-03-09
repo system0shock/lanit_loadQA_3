@@ -1,0 +1,5 @@
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\pre_cci.c: Login.c:77: warning: missing return value
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\pre_cci.c: Pagination.c:157: error: undeclared identifier `totalQueries'
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\pre_cci.c: Pagination.c:195: warning: unreachable code
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\pre_cci.c: CreateTask.c:31: error: undeclared identifier `buff'
+c:\users\omega\documents\vugen\scripts\tutorial\scripts\lanit_loadqa\uc_10_complex_scenario\\pre_cci.c: c:\\users\\omega\\documents\\vugen\\scripts\\tutorial\\scripts\\lanit_loadqa\\uc_10_complex_scenario\\\\combined_UC_10_Complex_Scenario.c:11: error: 2 errors, not writing pre_cci.ci
