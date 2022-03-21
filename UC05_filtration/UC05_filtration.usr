@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UC05_filtration.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+saveFilter=saveFilter.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Action=1
+saveFilter=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+saveFilter=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+saveFilter=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+saveFilter=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UC05_TR01_open_login_page__*delimiter*__UC05_TR02_user_login__*delimiter*__UC05_TR01_open_login_page__*delimiter*__UC05_TR02_user_login__*delimiter*__UC05_TR03_add_filter__*delimiter*__UC05_TR03_add_filter__*delimiter*__UC05_TR05_logout__*delimiter*__TR04_save_query__*delimiter*__UC05_TR05_logout__*delimiter*__UC05_TR03_add_filter__*delimiter*__UC05_TR04_save_query__*delimiter*__UC05_TR05_logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+UC05_TR01_open_login_page=
+UC05_TR02_user_login=
+UC05_TR03_add_filter=
+UC05_TR05_logout=
+TR04_save_query=
+UC05_TR04_save_query=
+[ManuallyExtraFiles]
+random_func.c=
